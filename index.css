@@ -6,8 +6,8 @@ body{
     display: flex;
     height: 100vh;
     margin: 0;
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 #navigation_bar{
@@ -59,11 +59,11 @@ li{
     flex: 0.8;
     padding: 70px;
     padding-top: 10px;
+    display: grid;
 }
 
 .post{
     width: 450px;
-    height: 150px;
 }
 
 .post_head {
@@ -97,8 +97,8 @@ li{
     padding: 30px;
 }
 .post_img img{
-    height: 450px;
-    width: 100%;
+    height: 350px;
+    width: 90%;
 }
 
 .post_reaction {
@@ -126,6 +126,36 @@ li{
 #likes {
     font-weight: bold;
 }
+
+#profile_pic {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.user_div{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+#sg_btn{
+    font-size: 15px;
+    background: none;
+    border: none;
+    color: dodgerblue;
+}
+
+.sg {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.suggestions {
+    position: sticky;
+    top: 10px;
+}
+
 
 
 
